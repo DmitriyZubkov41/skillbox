@@ -33,4 +33,5 @@
 Теперь что я делаю сейчас:<br>
 <b>git add --all</b><br>
 <b>git commit -m "изменил readme и добавил папку image"</b><br>
-Смотрю, что с файлами командой git status<br>
+Смотрю, что с файлами командой git status
+<li><b>git push origin main</b> отправил изменения на удаленный skillbox. Убедился, что всё работает как надо.

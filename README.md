@@ -45,4 +45,10 @@
 </ol>
 07.06.2024
 <ol>
+<li>Закоммитил ветку another_motor и <b>git push --set-upstream origin another_motor</b> - создал на репо skillbox ветку another_motor и отправил на нее снимок одноименной локальной ветки.
+<li>Смотрю страницу https://github.com/DmitriyZubkov41/skillbox Появилась кнопка Compare&pull request и почему-то нет новой ветки. Нажал кнопку. В add a description написал "Скрипт маленького двигателя". Нажал кнопку "pull request". Тем самым создал запрос на добавление another_motor в основную ветку  main.
+<li>Зашел на вкладку Files changed. Красным выделена что изменено, зеленым что стало в readme. Нажимаю кнопку Merge pull request. Далее подверждаю нажатием кнопки Confirm merge.<br>
+"DmitriyZubkov41 merged 2 commits into main from another_motor"<br>
+Перешел на страницу  skillbox, смотрю состав веток (появилась  another_motor). Все как планировалось кроме что ветка another_motor по составу идентична main. Я думаю накосячил, когда создавал ветку, сейчас бы сначало создал папку в stydyrobot, перешел в нее и тогда бы создал ветку.
+<li>Поскольку изначально доступ сделал private, в settings/collabarators изменил доступ на public.
 <li>

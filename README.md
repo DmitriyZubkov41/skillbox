@@ -36,7 +36,7 @@
 Смотрю, что с файлами командой git status
 <li><b>git push origin main</b> отправил снимок на удаленный skillbox. Убедился, что всё работает как надо.
 <li>Далее по заданию, я должен создать другую ветку.<br>
-<b>git branch another_motor<br>
+<b>git branch another_motor<br></b>
 Думал что появится каталог another_motor в studyrobot.<br>
 <b>git checkout another_motor</b> - переключился на ветку another_motor
 <li>Создал скрипт small_enginer.py. Сохранил его в каталоге studyrobot.<br>
@@ -53,7 +53,7 @@
 <li>Поскольку изначально доступ сделал private, в settings/collabarators изменил доступ на public.
 <li>Локально:<br>
 <b>git commit -am "Последний коммит в another"</b><br>
-<b>git checkout main</b><br><br>
+<b>git checkout main</b><br>
 <b>git merge another_motor</b><br>
 <b>git status</b><br>
 <b>git push</b> Получено сообщение: error: не удалось отправить некоторые ссылки в «git@github.com:DmitriyZubkov41/skillbox.git»<br>
@@ -61,3 +61,5 @@
 Проблема только в том что на origin устаревшая версия readme.<br>
 Скопировал readme в другую папку, выполнил git pull
 <li>Далее, я реально не понял, readme остался без изменений, как будто git не стал менять более новый файл устаревшей версией.
+<li>git commit -am "Попытка№2"<br>git push<br>
+На этот раз все нормально.</li>
